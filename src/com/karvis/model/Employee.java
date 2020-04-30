@@ -5,7 +5,7 @@ public class Employee {
 	String name;
 	long empId;
 	String city;
-	
+	String state;
 	public String getName() {
 		return name;
 	}
