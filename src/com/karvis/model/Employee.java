@@ -6,6 +6,9 @@ public class Employee {
 	long empId;
 	String city;
 	String state;
+	String phoneNumber;
+	
+	
 	public String getName() {
 		return name;
 	}
