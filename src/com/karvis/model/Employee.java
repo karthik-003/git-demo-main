@@ -28,5 +28,12 @@ public class Employee {
 		this.city = city;
 	}
 	
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", empId=" + empId + ", city=" + city + ", state=" + state + ", phoneNumber="
+				+ phoneNumber + "]";
+	}
+	
+	
 	
 }
