@@ -40,5 +40,12 @@ public class Employee {
 		this.phoneNumber = phoneNumber;
 	}
 	
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", empId=" + empId + ", city=" + city + ", state=" + state + ", phoneNumber="
+				+ phoneNumber + "]";
+	}
+	
+	
 	
 }
